@@ -1,6 +1,4 @@
-cd
-cd
-cd Free-Proxy
+#!/bin/bash
+
+cd ~/Free-Proxy || exit 1
 bash src/StartEnter.sh
-cd 
-cd Free-Proxy
