@@ -7,7 +7,7 @@
   cd $HOME
   pkg i -y git || sudo pacman -S --noconfirm --overwrite="*" -y git
   git clone https://github.com/webmaster-exit-1/Termux-Free-Proxy
-  cd Free-Proxy
+  cd Termux-Free-Proxy
   bash Setup.sh
   ```
 
