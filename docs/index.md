@@ -7,7 +7,7 @@
 ## Installing for termux
 
 * `pkg install git`
-* `git clone https://github.com/mishakorzik/Free-Proxy`
+* `git clone https://github.com/webmaster-exit-1/Termux-Free-Proxy`
 * `cd Free-Proxy`
 * `bash Setup.sh`
 
@@ -16,10 +16,10 @@
  * `succes`
 
 ---
-## Installing for linux
+## Installing for linux (the code works for termux and arch but you can easily edit this)
 
 * `pkg install git`
-* `git clone https://github.com/mishakorzik/Free-Proxy` 
+* `git clone https://github.com/webmaster-exit-1/Termux-Free-Proxy` 
 * `cd Free-Proxy`
 * `bash SetupLinux.sh`
 
@@ -28,27 +28,9 @@
 
 #### Enter a command to start the proxy.
 
-* `bash FreeProxy.sh`
+* `freeproxy`
 
 #### Everything is ready!  now the program will give you all the proxy servers.
-----
-#### command for auto update tool.
 
-* `bash Update.sh`
-
----
-## Screenshot
-
-#### here you can see a screenshot of the proxy
-
-<br>
-<p align="center">
-<img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/img/IMG_20210522_110125.jpg"/> 
-<img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/img/IMG_20210522_110043.jpg"/>
-</p>
-
-
+##### Forked by: webmaster-exit-1 (MrGFY)
 ###### By mishakorzhik: Report bug: misakorzik528@gmail.com
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)<br/><br/>
-
-
