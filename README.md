@@ -17,17 +17,8 @@
 ## Start Termux Free Proxy.
 
   ```bash
-  bash FreeProxy.sh
+  freeproxy
   ```
-
----
-#### Update command.
-
-  ```bash 
-  bash Update.sh
-  ```
-
-#### <a href="src/UPGRADE.md">View utility updates</a>
 
 #### Everything is ready! Enjoy the proxies.
 ---
