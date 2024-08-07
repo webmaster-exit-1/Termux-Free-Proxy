@@ -14,15 +14,17 @@ sleep 1
 echo "Installing for Termux..."
 sleep 2
 cd
-pkg up -y
-pkg i -y git
-pkg i -y python2
+pkg i -y git || pacman -S --noconfirm --disable-download-timeout --overwrite="*" --yes git 2>/dev/null
+pkg i -y python2 || pacman -S --noconfirm --disable-download-timeout --overwrite="*" --yes python2 2>/dev/null
 gem install lolcat
+clear
 sleep 1
 echo "Please wait. Be patient."
 sleep 1
+clear
 pip2 install requests
 pip2 install bs4
+clear
 sleep 1
 echo "succesfull installed for linux!"
 sleep 1
