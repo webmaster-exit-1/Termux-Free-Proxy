@@ -25,8 +25,9 @@ clear
 pip2 install requests
 pip2 install bs4
 clear
-cd .. && mv Termux-Free-Proxy ~/.Free-Proxy
-install -D 755 ~/.FreeProxy/FreeProxy.sh $PREFIX/bin/freeproxy || sudo install -D 755 ~/.FreeProxy/FreeProxy.sh /usr/bin/freeproxy
+cd || exit 1
+mv Termux-Free-Proxy ~/.Free-Proxy
+install --mode 0755 -D ~/.Free-Proxy/FreeProxy.sh $PREFIX/bin/freeproxy || sudo install --mode 0755 -D ~/.Free-Proxy/FreeProxy.sh /usr/bin/freeproxy
 sleep 1
 echo "succesfull installed for linux!"
 sleep 1
