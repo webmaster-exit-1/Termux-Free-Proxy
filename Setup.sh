@@ -27,7 +27,9 @@ pip2 install bs4
 clear
 cd || exit 1
 mv Termux-Free-Proxy ~/.Free-Proxy
-sudo install --mode 0755 -D ~/.Free-Proxy/FreeProxy.sh /usr/bin/freeproxy || install --mode 0755 -D ~/.Free-Proxy/FreeProxy.sh $PREFIX/bin/freeproxy
+mkdir -p ~/.bin
+echo "export PATH=$HOME/.bin:$PATH" >> ~/.bashrc && . ~/.bashrc
+sudo install --mode 0755 -D ~/.Free-Proxy/FreeProxy.sh ~/.bin/freeproxy || install --mode 0755 -D ~/.Free-Proxy/FreeProxy.sh $PREFIX/bin/freeproxy
 sleep 1
 echo "succesfull installed for linux!"
 sleep 1
