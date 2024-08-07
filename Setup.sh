@@ -25,6 +25,7 @@ clear
 pip2 install requests
 pip2 install bs4
 clear
+cd .. && mv Termux-Free-Proxy ~/.FreeProxy
 sleep 1
 echo "succesfull installed for linux!"
 sleep 1
